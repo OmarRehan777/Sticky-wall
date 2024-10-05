@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sticky wall</title>
+  </head>
+  <body>
+    <header>
+      Sticky wall
+      <div class="change-color">Theme</div>
+      <div class="theme-palette">
+        <div class="color teal"></div>
+        <div class="color purple"></div>
+        <div class="color yellow"></div>
+        <div class="color green"></div>
+        <div class="color sky"></div>
+        <div class="color pink"></div>
+        <div class="color brown"></div>
+        <div class="color gray"></div>
+      </div>
+    </header>
+    <!-- zoom part -->
+    <div class="overlay">
+      <div class="zoomed-note">
+        <div class="text-content" contenteditable="true"></div>
+        <div class="button save">Save</div>
+        <div class="button delete">Delete</div>
+      </div>
+    </div>
+    <!-- default part -->
+    <section>
+      <div class="add-note">+</div>
+    </section>
+  </body>
+</html>
